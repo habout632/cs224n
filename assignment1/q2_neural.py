@@ -36,11 +36,15 @@ def forward_backward_prop(data, labels, params, dimensions):
     b2 = np.reshape(params[ofs:ofs + Dy], (1, Dy))
 
     ### YOUR CODE HERE: forward propagation
-    raise NotImplementedError
+    z1 = np.dot(data, W1)+b1
+    a1 = sigmoid(z1)
+    z2 = np.dot(a1, W2)+b2
+    a2 = softmax(z2)
+    cost = -np.dot(labels, np.log(a2))
     ### END YOUR CODE
 
     ### YOUR CODE HERE: backward propagation
-    raise NotImplementedError
+    gradW1, gradb1, gradW2, gradb2 = a2 - labels
     ### END YOUR CODE
 
     ### Stack gradients (do not modify)
@@ -71,19 +75,19 @@ def sanity_check():
                     forward_backward_prop(data, labels, params, dimensions), params)
 
 
-def your_sanity_checks():
-    """
-    Use this space add any additional sanity checks by running:
-        python q2_neural.py
-    This function will not be called by the autograder, nor will
-    your additional tests be graded.
-    """
-    print "Running your sanity checks..."
-    ### YOUR CODE HERE
-    raise NotImplementedError
-    ### END YOUR CODE
+# def your_sanity_checks():
+#     """
+#     Use this space add any additional sanity checks by running:
+#         python q2_neural.py
+#     This function will not be called by the autograder, nor will
+#     your additional tests be graded.
+#     """
+#     print "Running your sanity checks..."
+#     ### YOUR CODE HERE
+#     raise NotImplementedError
+#     ### END YOUR CODE
 
 
 if __name__ == "__main__":
     sanity_check()
-    your_sanity_checks()
+    # your_sanity_checks()

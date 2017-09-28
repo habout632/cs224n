@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3479c34e-d41a-4583-bb47-c0a9a7ff2459" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assignment1/q2_gradcheck.py" afterPath="$PROJECT_DIR$/assignment1/q2_gradcheck.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assignment1/q1_softmax.py" afterPath="$PROJECT_DIR$/assignment1/q1_softmax.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assignment1/q2_neural.py" afterPath="$PROJECT_DIR$/assignment1/q2_neural.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assignment1/q2_sigmoid.py" afterPath="$PROJECT_DIR$/assignment1/q2_sigmoid.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assignment1/q3_word2vec.py" afterPath="$PROJECT_DIR$/assignment1/q3_word2vec.py" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,6 +14,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/cs224n$Unittests_for_q1_softmax_test_softmax_basic.coverage" NAME="Unittests for q1_softmax.test_softmax_basic Coverage Results" MODIFIED="1506582121731" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/assignment1" />
+    <SUITE FILE_PATH="coverage/cs224n$Unittests_in_q1_softmax_py.coverage" NAME="Unittests in q1_softmax.py Coverage Results" MODIFIED="1506582068977" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/assignment1" />
+    <SUITE FILE_PATH="coverage/cs224n$q2_neural.coverage" NAME="q2_neural Coverage Results" MODIFIED="1506581190311" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/assignment1" />
     <SUITE FILE_PATH="coverage/cs224n$q2_gradcheck.coverage" NAME="q2_gradcheck Coverage Results" MODIFIED="1506572641093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/assignment1" />
     <SUITE FILE_PATH="coverage/cs224n$Unittests_in_q2_sigmoid_py.coverage" NAME="Unittests in q2_sigmoid.py Coverage Results" MODIFIED="1506564511623" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/assignment1" />
     <SUITE FILE_PATH="coverage/cs224n$Unittests_for_q2_sigmoid_test_sigmoid_basic.coverage" NAME="Unittests for q2_sigmoid.test_sigmoid_basic Coverage Results" MODIFIED="1506566326439" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/assignment1" />
@@ -23,48 +24,12 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="q1_softmax.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="q1_softmax.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assignment1/q1_softmax.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="452">
-              <caret line="72" column="7" lean-forward="false" selection-start-line="72" selection-start-column="7" selection-end-line="72" selection-end-column="7" />
+            <state relative-caret-position="140">
+              <caret line="55" column="19" lean-forward="false" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="19" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="q2_gradcheck.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/assignment1/q2_gradcheck.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-99">
-              <caret line="26" column="61" lean-forward="true" selection-start-line="26" selection-start-column="61" selection-end-line="26" selection-end-column="61" />
-              <folding>
-                <element signature="e#23#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="q3_word2vec.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assignment1/q3_word2vec.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="372">
-              <caret line="163" column="0" lean-forward="true" selection-start-line="163" selection-start-column="0" selection-end-line="163" selection-end-column="0" />
-              <folding>
-                <element signature="e#23#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="q4_sentiment.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assignment1/q4_sentiment.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="980">
-              <caret line="76" column="34" lean-forward="true" selection-start-line="76" selection-start-column="34" selection-end-line="76" selection-end-column="34" />
-              <folding>
-                <element signature="e#23#38#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -72,8 +37,8 @@
       <file leaf-file-name="q2_neural.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assignment1/q2_neural.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="34" column="17" lean-forward="true" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+            <state relative-caret-position="443">
+              <caret line="43" column="21" lean-forward="true" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
               <folding>
                 <element signature="e#23#41#0" expanded="true" />
               </folding>
@@ -81,12 +46,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="q2_sigmoid.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assignment1/q2_sigmoid.py">
+      <file leaf-file-name="q2_gradcheck.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assignment1/q2_gradcheck.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="53" column="22" lean-forward="true" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
-              <folding />
+            <state relative-caret-position="333">
+              <caret line="23" column="26" lean-forward="true" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+              <folding>
+                <element signature="e#23#41#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -100,9 +67,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/assignment1/q2_sigmoid.py" />
-        <option value="$PROJECT_DIR$/assignment1/q2_neural.py" />
         <option value="$PROJECT_DIR$/assignment1/q3_word2vec.py" />
         <option value="$PROJECT_DIR$/assignment1/q2_gradcheck.py" />
+        <option value="$PROJECT_DIR$/assignment1/q2_neural.py" />
+        <option value="$PROJECT_DIR$/assignment1/q1_softmax.py" />
       </list>
     </option>
   </component>
@@ -225,23 +193,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.q2_gradcheck">
-    <configuration default="false" name="Unittests in q2_sigmoid.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/assignment1" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="cs224n" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/assignment1/q2_sigmoid.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python tests.Unittests for q1_softmax.test_softmax_basic">
     <configuration default="false" name="Unittests for q2_sigmoid.test_sigmoid_basic" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -275,6 +227,57 @@
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="q2_neural" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/assignment1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="cs224n" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/assignment1/q2_neural.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittests in q1_softmax.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/assignment1" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="cs224n" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/assignment1/q1_softmax.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittests for q1_softmax.test_softmax_basic" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/assignment1" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="cs224n" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;q1_softmax.test_softmax_basic&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method />
     </configuration>
     <configuration default="true" type="ApexTest" factoryName="Apex Test">
@@ -452,17 +455,21 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
-    <list size="4">
+    <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python.cs224n" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in q2_sigmoid.py" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for q2_sigmoid.test_sigmoid_basic" />
-      <item index="3" class="java.lang.String" itemvalue="Python.q2_gradcheck" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for q2_sigmoid.test_sigmoid_basic" />
+      <item index="2" class="java.lang.String" itemvalue="Python.q2_gradcheck" />
+      <item index="3" class="java.lang.String" itemvalue="Python.q2_neural" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in q1_softmax.py" />
+      <item index="5" class="java.lang.String" itemvalue="Python tests.Unittests for q1_softmax.test_softmax_basic" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Python.q2_gradcheck" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for q2_sigmoid.test_sigmoid_basic" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in q2_sigmoid.py" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests for q1_softmax.test_softmax_basic" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in q1_softmax.py" />
+        <item index="2" class="java.lang.String" itemvalue="Python.q2_neural" />
+        <item index="3" class="java.lang.String" itemvalue="Python.q2_gradcheck" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for q2_sigmoid.test_sigmoid_basic" />
       </list>
     </recent_temporary>
   </component>
@@ -480,14 +487,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_q2_sigmoid_test_sigmoid_basic - 2017.09.28 at 10h 38m 13s.xml">
-      <configuration name="Unittests for q2_sigmoid.test_sigmoid_basic" configurationId="tests" />
+    <history-entry file="Unittests_for_q1_softmax_test_softmax_basic - 2017.09.28 at 14h 53m 26s.xml">
+      <configuration name="Unittests for q1_softmax.test_softmax_basic" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_q2_sigmoid_test_sigmoid_basic - 2017.09.28 at 10h 38m 46s.xml">
-      <configuration name="Unittests for q2_sigmoid.test_sigmoid_basic" configurationId="tests" />
+    <history-entry file="Unittests_for_q1_softmax_test_softmax_basic - 2017.09.28 at 14h 54m 04s.xml">
+      <configuration name="Unittests for q1_softmax.test_softmax_basic" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_q2_sigmoid_py - 2017.09.28 at 10h 08m 32s.xml">
-      <configuration name="Unittests in q2_sigmoid.py" configurationId="tests" />
+    <history-entry file="Unittests_for_q1_softmax_test_softmax_basic - 2017.09.28 at 14h 59m 30s.xml">
+      <configuration name="Unittests for q1_softmax.test_softmax_basic" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_q1_softmax_test_softmax_basic - 2017.09.28 at 15h 00m 30s.xml">
+      <configuration name="Unittests for q1_softmax.test_softmax_basic" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_q1_softmax_test_softmax_basic - 2017.09.28 at 15h 01m 13s.xml">
+      <configuration name="Unittests for q1_softmax.test_softmax_basic" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_q1_softmax_test_softmax_basic - 2017.09.28 at 15h 02m 02s.xml">
+      <configuration name="Unittests for q1_softmax.test_softmax_basic" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_q1_softmax_py - 2017.09.28 at 14h 53m 15s.xml">
+      <configuration name="Unittests in q1_softmax.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_q1_softmax_py - 2017.09.28 at 14h 53m 53s.xml">
+      <configuration name="Unittests in q1_softmax.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_q1_softmax_py - 2017.09.28 at 14h 53m 56s.xml">
+      <configuration name="Unittests in q1_softmax.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_q1_softmax_py - 2017.09.28 at 15h 01m 09s.xml">
+      <configuration name="Unittests in q1_softmax.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -497,7 +525,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Debug Logs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33405173" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43534482" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -577,14 +605,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assignment1/q1_softmax.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="72" column="7" lean-forward="false" selection-start-line="72" selection-start-column="7" selection-end-line="72" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assignment1/q3_word2vec.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="372">
@@ -592,6 +612,14 @@
           <folding>
             <element signature="e#23#41#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignment1/q2_sigmoid.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="912">
+          <caret line="53" column="22" lean-forward="true" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -605,31 +633,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assignment1/q2_sigmoid.py">
+    <entry file="file://$PROJECT_DIR$/assignment1/q2_gradcheck.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="53" column="22" lean-forward="true" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
-          <folding />
+        <state relative-caret-position="333">
+          <caret line="23" column="26" lean-forward="true" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+          <folding>
+            <element signature="e#23#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assignment1/q2_neural.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="34" column="17" lean-forward="true" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+        <state relative-caret-position="443">
+          <caret line="43" column="21" lean-forward="true" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
           <folding>
             <element signature="e#23#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assignment1/q2_gradcheck.py">
+    <entry file="file://$PROJECT_DIR$/assignment1/q1_softmax.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-99">
-          <caret line="26" column="61" lean-forward="true" selection-start-line="26" selection-start-column="61" selection-end-line="26" selection-end-column="61" />
-          <folding>
-            <element signature="e#23#41#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="140">
+          <caret line="55" column="19" lean-forward="false" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
