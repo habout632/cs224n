@@ -16,8 +16,8 @@ def gradcheck_naive(f, x):
 
     rndstate = random.getstate()
     random.setstate(rndstate)
-    fx, grad = f(x) # Evaluate function value at original point
-    h = 1e-4        # Do not change this!
+    fx, grad = f(x)  # Evaluate function value at original point
+    h = 1e-4  # Do not change this!
 
     # Iterate over all indexes in x
     it = np.nditer(x, flags=['multi_index'], op_flags=['readwrite'])
@@ -30,7 +30,15 @@ def gradcheck_naive(f, x):
         # to test cost functions with built in randomness later.
 
         ### YOUR CODE HERE:
-        raise NotImplementedError
+        random.setstate(rndstate)
+        a = np.copy(x)
+        a[ix] = x[ix]+h
+        fx1, grad1 = f(a)
+        random.setstate(rndstate)
+        b = np.copy(x)
+        b[ix] = x[ix] - h
+        fx2, grad2 = f(b)
+        numgrad = (fx1 - fx2) / (2 * h)
         ### END YOUR CODE
 
         # Compare gradients
@@ -42,7 +50,7 @@ def gradcheck_naive(f, x):
                 grad[ix], numgrad)
             return
 
-        it.iternext() # Step to next dimension
+        it.iternext()  # Step to next dimension
 
     print "Gradient check passed!"
 
@@ -54,9 +62,9 @@ def sanity_check():
     quad = lambda x: (np.sum(x ** 2), x * 2)
 
     print "Running sanity checks..."
-    gradcheck_naive(quad, np.array(123.456))      # scalar test
-    gradcheck_naive(quad, np.random.randn(3,))    # 1-D test
-    gradcheck_naive(quad, np.random.randn(4,5))   # 2-D test
+    gradcheck_naive(quad, np.array(123.456))  # scalar test
+    gradcheck_naive(quad, np.random.randn(3, ))  # 1-D test
+    gradcheck_naive(quad, np.random.randn(4, 5))  # 2-D test
     print ""
 
 

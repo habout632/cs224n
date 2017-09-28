@@ -27,7 +27,7 @@ def forward_backward_prop(data, labels, params, dimensions):
     ofs = 0
     Dx, H, Dy = (dimensions[0], dimensions[1], dimensions[2])
 
-    W1 = np.reshape(params[ofs:ofs+ Dx * H], (Dx, H))
+    W1 = np.reshape(params[ofs:ofs + Dx * H], (Dx, H))
     ofs += Dx * H
     b1 = np.reshape(params[ofs:ofs + H], (1, H))
     ofs += H
@@ -45,7 +45,7 @@ def forward_backward_prop(data, labels, params, dimensions):
 
     ### Stack gradients (do not modify)
     grad = np.concatenate((gradW1.flatten(), gradb1.flatten(),
-        gradW2.flatten(), gradb2.flatten()))
+                           gradW2.flatten(), gradb2.flatten()))
 
     return cost, grad
 
@@ -59,16 +59,16 @@ def sanity_check():
 
     N = 20
     dimensions = [10, 5, 10]
-    data = np.random.randn(N, dimensions[0])   # each row will be a datum
+    data = np.random.randn(N, dimensions[0])  # each row will be a datum
     labels = np.zeros((N, dimensions[2]))
     for i in xrange(N):
-        labels[i, random.randint(0,dimensions[2]-1)] = 1
+        labels[i, random.randint(0, dimensions[2] - 1)] = 1
 
     params = np.random.randn((dimensions[0] + 1) * dimensions[1] + (
         dimensions[1] + 1) * dimensions[2], )
 
     gradcheck_naive(lambda params:
-        forward_backward_prop(data, labels, params, dimensions), params)
+                    forward_backward_prop(data, labels, params, dimensions), params)
 
 
 def your_sanity_checks():
