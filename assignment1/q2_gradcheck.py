@@ -67,20 +67,20 @@ def sanity_check():
     gradcheck_naive(quad, np.random.randn(4, 5))  # 2-D test
     print ""
 
-
-def your_sanity_checks():
-    """
-    Use this space add any additional sanity checks by running:
-        python q2_gradcheck.py
-    This function will not be called by the autograder, nor will
-    your additional tests be graded.
-    """
-    print "Running your sanity checks..."
-    ### YOUR CODE HERE
-    raise NotImplementedError
-    ### END YOUR CODE
+#
+# def your_sanity_checks():
+#     """
+#     Use this space add any additional sanity checks by running:
+#         python q2_gradcheck.py
+#     This function will not be called by the autograder, nor will
+#     your additional tests be graded.
+#     """
+#     print "Running your sanity checks..."
+#     ### YOUR CODE HERE
+#     raise NotImplementedError
+#     ### END YOUR CODE
 
 
 if __name__ == "__main__":
     sanity_check()
-    your_sanity_checks()
+    # your_sanity_checks()
